@@ -8,8 +8,11 @@ public class InputData : MonoBehaviour
     public InputDevice _rightController;
     public InputDevice _leftController;
     public InputDevice _HMD;
+    public XRNode LeftHand;
+    public XRNode RightHand;
 
 
+    
     void Update()
     {
         if (!_rightController.isValid || !_leftController.isValid || !_HMD.isValid)

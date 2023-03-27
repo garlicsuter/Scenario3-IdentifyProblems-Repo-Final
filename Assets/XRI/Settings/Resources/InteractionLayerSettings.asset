@@ -21,6 +21,7 @@ MonoBehaviour:
   - UI
   - Nuts
   - Pads
+  - Raycastable
   - 
   - 
   - 
@@ -43,5 +44,4 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
+  - Teleport
