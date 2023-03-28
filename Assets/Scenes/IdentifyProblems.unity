@@ -3508,7 +3508,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &985156601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4485,8 +4485,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1555263818}
-  - component: {fileID: 1555263821}
-  - component: {fileID: 1555263820}
   - component: {fileID: 1555263822}
   - component: {fileID: 1555263823}
   m_Layer: 0
@@ -4511,36 +4509,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1555263820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555263817}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bebd674b12a33fc4184b7ab695c18d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LeftHand: 4
-  RightHand: 5
---- !u!114 &1555263821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555263817}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7252faf814528f849acc9cedb0580368, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlePrefab: {fileID: 4549469490360288096, guid: b82265f1da297994cbcd011aa999e6d7, type: 3}
-  leftScoreDisplay: {fileID: 1979921893}
-  rightScoreDisplay: {fileID: 93119911}
-  button: 4
 --- !u!114 &1555263822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4575,7 +4543,6 @@ MonoBehaviour:
   - {fileID: 1302631918}
   circleCorrectText: {fileID: 1062697682}
   nonScratchedCountText: {fileID: 1479758962}
-  missedCountText: {fileID: 621609091}
 --- !u!1 &1579370453
 GameObject:
   m_ObjectHideFlags: 0
