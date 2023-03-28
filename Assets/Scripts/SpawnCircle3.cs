@@ -17,7 +17,6 @@ public class SpawnCircle3 : MonoBehaviour
     private float buttonPressed;
     private bool spawnomatic = true;
 
-
     private void Start()
     {
         ABcontrollerL = dragLCtrlHere.GetComponent<ActionBasedController>();

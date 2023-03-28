@@ -7,6 +7,7 @@ TagManager:
   - Car
   - Nut
   - Wrench
+  - circleStay
   layers:
   - Default
   - TransparentFX
